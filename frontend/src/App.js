@@ -11,14 +11,14 @@ const App = () => {
   return (
 		<Router>
 			<Header/>
-			<Container>
-				<main className='py-3'>
+			<Container fluid className='pa0'>
+				<main>
 					<Route path='/' component={LandingScreen} exact></Route>
 					<Route path='/register' component={RegisterScreen}></Route>
 					<Route path='/login' component={LoginScreen}></Route>
 				</main>
 			</Container>
-			<Footer/>
+		{/* 	<Footer/> */}
 		</Router>
 	);
 }

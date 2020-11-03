@@ -1,3 +1,55 @@
+:root {
+  --pcoy: #0f4c81;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+#nav {
+  height: 10vh;
+  background-color: var(--pcoy) !important;
+}
+
 main {
-  min-height: 80vh;
+  height: 90vh;
+}
+
+.landing-wrapper {
+  height: 100%;
+  background-color: var(--pcoy);
+}
+
+#nav button,
+.landing-wrapper button {
+  color: var(--pcoy);
+  background-color: white;
+  border-color: #0c3b64;
+  border-radius: 2em;
+  font-weight: bold;
+}
+
+#nav button:hover,
+.landing-wrapper button:hover {
+  background-color: var(--pcoy);
+  border-color: #0c3b64;
+  color: white;
+}
+
+.blob-container {
+  height: 275%;
+  top: -90%;
+  right: -25%;
+}
+
+.blob-decor {
+  height: 150%;
+  top: -20%;
+  right: 65%;
+}
+
+.manypixels {
+  height: 60%;
+  bottom: 14%;
+  right: 3%;
 }
