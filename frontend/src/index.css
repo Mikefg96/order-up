@@ -11,11 +11,17 @@
   background-color: var(--pcoy) !important;
 }
 
+.logo {
+  height: 7vh;
+}
+
 main {
   height: 90vh;
 }
 
-.landing-wrapper {
+.landing-wrapper,
+.register-wrapper,
+.login-wrapper {
   height: 100%;
   background-color: var(--pcoy);
 }

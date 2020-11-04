@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Row, Col, Button, Image } from 'react-bootstrap'
 
 const LandingScreen = () => {
@@ -7,8 +8,10 @@ const LandingScreen = () => {
             <Row className='h-100 '>
                 <Col className='z-1 flex flex-column justify-center items-start ph6'>
                     <h1 className='f1 fw9 white'>¿Necesitas un lugar en donde administrar los clientes de tu negocio?</h1>
-                    <p className='f4 fw3 white mb-5'>Con Order Up! es posible administrar los pedidos de tus clientes de una manera fácil y sencilla.</p>
-                    <Button variant="outline-primary">Registrar a Order Up!</Button>{' '}
+                    <p className='f4 fw4 white w-70 mb-5'>Con Order Up! es posible administrar los pedidos de tus clientes de una manera fácil y sencilla.</p>
+                    <Link to='/register'>
+                        <Button variant="outline-primary">Registrar a Order Up!</Button>{' '}
+                    </Link>
                 </Col>
                 <Col></Col>
             </Row>
