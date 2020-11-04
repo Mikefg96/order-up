@@ -30,7 +30,7 @@ main {
 .landing-wrapper button {
   color: var(--pcoy);
   background-color: white;
-  border-color: #0c3b64;
+  border: 2px solid #0c3b64;
   border-radius: 2em;
   font-weight: bold;
 }
@@ -58,4 +58,63 @@ main {
   height: 60%;
   bottom: 14%;
   right: 3%;
+}
+
+/* 
+*  REGISTER SCREEN
+*/
+
+.card-form {
+  border-radius: 1.5em;
+}
+
+.card-form input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(15, 76, 129, 0.25);
+}
+
+.card-form button {
+  color: white;
+  background-color: var(--pcoy);
+  border: 2px solid #0c3b64;
+  border-radius: 2em;
+  font-weight: bold;
+}
+
+.card-form button:hover {
+  background-color: white;
+  border-color: var(--pcoy);
+  color: var(--pcoy);
+}
+
+.blob3 {
+  height: 180%;
+  left: -30%;
+  bottom: -50%;
+}
+
+.blob4 {
+  height: 180%;
+  right: -30%;
+  bottom: -30%;
+}
+
+/* 
+*  LOGIN SCREEN
+*/
+
+.blob5 {
+  height: 180%;
+  left: -14%;
+  bottom: -68%;
+}
+
+.blob6 {
+  height: 180%;
+  right: -14%;
+  bottom: -68%;
+}
+
+.login-wrapper .manypixels {
+  bottom: 15%;
+  left: 3%;
 }
