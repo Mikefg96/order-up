@@ -1,0 +1,32 @@
+{
+  "name": "order_up",
+  "version": "1.0.0",
+  "description": "Order Up! is a web application where people can manage their customers' orders",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "start": "node backend/app",
+    "server": "nodemon backend/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mikefg96/order-up.git"
+  },
+  "author": "Mikefg96",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mikefg96/order-up/issues"
+  },
+  "homepage": "https://github.com/Mikefg96/order-up#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
